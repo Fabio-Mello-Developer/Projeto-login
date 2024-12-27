@@ -18,7 +18,7 @@
 }
 
 body, html {
-    background-color: #F2D091 ;
+    background-image: linear-gradient(to bottom, #C1A691, #C7C8CA );
     height: 100vh;
     width: 100vw;
 }
@@ -50,7 +50,7 @@ main {
 }
 
 #login > #imagem {
-    background: #D9529C url(../imagens/colors.png) no-repeat;
+    background: #D9529C url(../imagens/63918.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     display: block;
