@@ -6,6 +6,9 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    
 </head>
 <body>
     <main>
@@ -16,7 +19,25 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="login.py" method="post"></form>
+                <form action="login.py" method="post">
+                    <div class="campo">
+                        <label for="ilogin"><span class="material-symbols-outlined">
+                            mail
+                            </span> E-mail</label>
+                        <input type="email" name="ilogin" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                    </div>
+                    <div class="campo" id="alink">
+                        <label for="senha"> <span class="material-symbols-outlined">
+                            key
+                            </span> Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20"><br>
+                        <input type="submit" value="Entrar">
+                        <a href="esqueci.html">      Esqueci a senha<span class="material-symbols-outlined">
+                            multimodal_hand_eye
+                            </span></a>
+
+                    </div>
+                </form>
             </div>
         </section>
     </main>
