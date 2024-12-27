@@ -16,7 +16,6 @@
     box-sizing: border-box;
 
 }
-
 body, html {
     background-image: linear-gradient(to bottom, #C1A691, #C7C8CA );
     height: 100vh;
@@ -98,14 +97,14 @@ form > .campo > input[type=submit] {
     display: block;
     margin: auto;
     font-size: 1em;
-    width: 250px;
-    height: 40px;
+    width: 15.7em;
+    height: 2.6em;
     background-image: linear-gradient(to right bottom,#C1A691,#C7C8CA);
     color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 1em;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.63);
 
    
@@ -124,8 +123,8 @@ form > .campo > .botao {
     display: block;
     margin: auto;
     font-size: 1em;
-    width: 250px;
-    height: 40px;
+    width: 15.7em;
+    height: 2.6em;
     background-image: linear-gradient(to right bottom,#C1A691,#C7C8CA);
     color: black;
     border: none;

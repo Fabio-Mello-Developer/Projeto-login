@@ -2,16 +2,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
-    body {
+    body,html {
         background-image: linear-gradient(to right, #C1A691, #C7C8CA );
     }
     
     #login {
         width: 90vw;
-        height: 87vh;
-        min-height: 300px;
-
-
+        height: 400px;
 
     }
     #login > #imagem {
@@ -24,6 +21,7 @@
     #login > #formulario {
         float: right;
         width: 50%;
+        height: 100%;
         
     }
     #login > #formulario > h1,p {
@@ -36,6 +34,7 @@
         font-size: 30px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
     }
+
 }
 
 @media  screen and (min-width: 992px) {
