@@ -7,8 +7,11 @@
     }
     
     #login {
-        width: 90vw;
-        height: 400px;
+        width: 87vw;
+        height: 93vh;
+
+        
+        
 
     }
     #login > #imagem {
@@ -23,18 +26,62 @@
         width: 50%;
         height: 100%;
         
+        
     }
     #login > #formulario > h1,p {
-        margin: 20px;
+        margin: 10px;
+        font-size: 0.8em !important;
         
 
     }
     #login > #formulario > h1 {
         margin-bottom: 20px;
-        font-size: 30px;
+        font-size: 20px !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
     }
+    form {
+        margin: 0px;
+        padding: 0px;
+    }
+    form > .campo > .botao {
+        display: inline-block;
+        margin: auto;
+        font-size: 1em;
+        width: 10em;
+        height: 1.9em;
+        background-image: linear-gradient(to right bottom,#C1A691,#C7C8CA);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        text-decoration: none;
+        line-height: 35px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.63);
+        
+        
+    }
+    form > .campo > input[type=submit] {
 
+        display: inline-block;
+        margin: auto;
+        font-size: 1em;
+        width: 9em;
+        height: 1.9em;
+        background-image: linear-gradient(to right bottom,#C1A691,#C7C8CA);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 1em;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.63);
+        line-height: 34px;
+        
+    
+       
+        
+    }
+    
 }
 
 @media  screen and (min-width: 992px) {
@@ -62,5 +109,8 @@
     #login > #formulario > h1, p {
         margin: 30px
     }
-    
-}
+    input#ilogin, #senha {
+        margin-left: 25px;
+        padding: 0px;
+    }
+}   
