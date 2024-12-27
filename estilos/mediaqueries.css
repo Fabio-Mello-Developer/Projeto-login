@@ -6,29 +6,29 @@
         background-image: linear-gradient(to right, #C1A691, #C7C8CA );
     }
     
-    
     #login {
         width: 90vw;
         height: 87vh;
+
+
     }
     #login > #imagem {
         float: left;
         width: 30%;
         height: 100%;
-        border-radius: 20px 0px 0px 20px;
-        margin-right: 26px;
+       
     }
-    #login > formulario {
+    #login > #formulario {
         float: right;
         width: 70%;
-        text-align: center;
-        
         
     }
     #login > #formulario > h1,p {
-        padding-bottom: 10px;
-        padding-top: 10px;
-        text-align: center;
+        margin: 30px;
+
+    }
+    #login > #formulario > h1 {
+        margin-bottom: 20px;
     }
 }
 
