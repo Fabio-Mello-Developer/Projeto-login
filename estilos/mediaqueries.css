@@ -9,6 +9,8 @@
     #login {
         width: 90vw;
         height: 87vh;
+        min-height: 300px;
+
 
 
     }
@@ -16,19 +18,23 @@
         float: left;
         width: 30%;
         height: 100%;
+        border-radius: 20px 0px 0px 20px;
        
     }
     #login > #formulario {
         float: right;
-        width: 70%;
+        width: 50%;
         
     }
     #login > #formulario > h1,p {
-        margin: 30px;
+        margin: 20px;
+        
 
     }
     #login > #formulario > h1 {
         margin-bottom: 20px;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
     }
 }
 
@@ -44,6 +50,8 @@
         float: left;
         width: 50%;
         height: 100%;
+        border-radius: 20px 0px 0px 20px;
+
     }
     #login > #formulario {
         float: right;
