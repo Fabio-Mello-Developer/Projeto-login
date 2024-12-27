@@ -81,8 +81,8 @@ form {
     width: 10px;
     display: inline;
     margin: 10px;
-    line-height: 40px;
     text-align: center;
+    
 }
 
 label {
@@ -91,6 +91,60 @@ label {
    
     
 }
-#alink > a {
-    margin-left: 28px;
+   
+
+form > .campo > input[type=submit] {
+
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    width: 250px;
+    height: 40px;
+    background-image: linear-gradient(to right bottom,#C1A691,#C7C8CA);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.63);
+
+   
+    
 }
+form > .campo > input[type=submit]:hover {
+    background-color:#909285 ;
+    color: white;
+    transform: translate(-1px, -1px);
+    cursor: pointer;
+
+    
+}
+form > .campo > .botao {
+   
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    width: 250px;
+    height: 40px;
+    background-image: linear-gradient(to right bottom,#C1A691,#C7C8CA);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    line-height: 40px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.63);
+    
+
+
+}
+form > .campo > .botao:hover {
+
+    background-color:#909285 ;
+    color: white;
+    transform: translate(-1px, -1px);
+    cursor: pointer;
+
+}
+
